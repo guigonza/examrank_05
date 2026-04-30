@@ -6,7 +6,7 @@
 /*   By: guigonza <guigonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/10 15:51:06 by guigonza          #+#    #+#             */
-/*   Updated: 2026/04/13 12:55:15 by guigonza         ###   ########.fr       */
+/*   Updated: 2026/04/30 08:54:57 by guigonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,10 +34,10 @@ class vect2
 		int& operator[](int index);
 
 		vect2& operator++();
-		vect2& operator++(int);
+		vect2 operator++(int);
 
 		vect2& operator--();
-		vect2& operator--(int);
+		vect2 operator--(int);
 
 		vect2& operator+=(const vect2& to_sum);
 		vect2& operator-=(const vect2& to_rest);
