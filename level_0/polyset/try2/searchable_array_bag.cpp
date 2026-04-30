@@ -6,7 +6,7 @@
 /*   By: guigonza <guigonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 20:52:35 by guigonza          #+#    #+#             */
-/*   Updated: 2026/04/29 20:57:08 by guigonza         ###   ########.fr       */
+/*   Updated: 2026/04/30 08:27:02 by guigonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,5 @@ bool searchable_array_bag::has(int value) const
 	for (int i = 0; i < size; i++)
 		if (data[i] == value)	
 			return true;
-		return false;
+	return false;
 }

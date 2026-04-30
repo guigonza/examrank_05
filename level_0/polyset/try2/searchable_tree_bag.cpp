@@ -6,7 +6,7 @@
 /*   By: guigonza <guigonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 20:57:19 by guigonza          #+#    #+#             */
-/*   Updated: 2026/04/29 21:00:16 by guigonza         ###   ########.fr       */
+/*   Updated: 2026/04/30 08:27:14 by guigonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,5 +35,5 @@ bool searchable_tree_bag::has(int value) const
 		else
 			tmp = tmp->r;
 	}
-	false;
+	return false;
 }
